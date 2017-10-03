@@ -10,7 +10,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var responsivePropType = _propTypes2.default.oneOfType([number, string, array]);
+var responsivePropType = _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string, _propTypes2.default.array]);
 
 var propTypes = {
   width: responsivePropType,
