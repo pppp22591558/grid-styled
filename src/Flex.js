@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { responsiveStyle } from 'styled-system'
-import { oneOfType, number, string, array, bool } from 'prop-types'
+import PropTypes from 'prop-types'
 import propTypes from './propTypes'
 import Box from './Box'
 
@@ -21,11 +21,11 @@ const Flex = styled(Box)([],
 )
 Flex.displayName = 'Flex'
 
-const responsivePropType = oneOfType([
-  number,
-  string,
-  array,
-  bool
+const responsivePropType = PropTypes.oneOfType([
+  PropTypes.number,
+  PropTypes.string,
+  PropTypes.array,
+  PropTypes.bool
 ])
 
 Flex.propTypes = Object.assign({}, propTypes, {

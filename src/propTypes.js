@@ -1,11 +1,6 @@
-import {
-  oneOfType,
-  number,
-  string,
-  array,
-} from 'prop-types'
+import PropTypes from 'prop-types'
 
-const responsivePropType = oneOfType([
+const responsivePropType = PropTypes.oneOfType([
   number,
   string,
   array
