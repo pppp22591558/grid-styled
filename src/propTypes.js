@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 
 const responsivePropType = PropTypes.oneOfType([
-  number,
-  string,
-  array
+  PropTypes.number,
+  PropTypes.string,
+  PropTypes.array
 ])
 
 const propTypes = {
