@@ -47,6 +47,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "glamor": "^2.20.40",
     "prop-types": "^15.5.10",
     "styled-components": "^2.0.1",
     "styled-system": "^1.0.0-9",
