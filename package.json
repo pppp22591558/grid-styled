@@ -4,7 +4,7 @@
   "description": "Responsive React grid system built with styled-components",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist",
+    "prepublish": "babel src -d dist",
     "test": "nyc ava",
     "cover": "nyc report --reporter=lcov --reporter=html",
     "start": "webpack-dev-server",
