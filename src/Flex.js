@@ -33,7 +33,7 @@ Flex.propTypes = Object.assign({}, propTypes, {
   direction: responsivePropType,
   align: responsivePropType,
   justify: responsivePropType,
-  column: bool
+  column: PropTypes.bool
 })
 
 export default Flex
