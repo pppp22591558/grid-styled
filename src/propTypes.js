@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const responsivePropType = PropTypes.oneOfType([
   PropTypes.number,
   PropTypes.string,
-  PropTypes.array
-])
+  PropTypes.array,
+]);
 
 const propTypes = {
   width: responsivePropType,
@@ -25,6 +25,6 @@ const propTypes = {
   pl: responsivePropType,
   px: responsivePropType,
   py: responsivePropType,
-}
+};
 
-export default propTypes
+export default propTypes;

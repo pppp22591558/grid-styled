@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-import Box from './Box'
+import styled from 'styled-components';
+import Box from './Box';
 
-const align = props => ({ verticalAlign: props.align || 'top' })
+const align = props => ({ verticalAlign: props.align || 'top' });
 
 const Grid = styled(Box)([], {
-  display: 'inline-block'
-}, align)
-Grid.displayName = 'Grid'
+  display: 'inline-block',
+}, align);
+Grid.displayName = 'Grid';
 
-export default Grid
+export default Grid;

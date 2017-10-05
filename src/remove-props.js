@@ -22,4 +22,4 @@ export default [
   'align',
   'justify',
   'column',
-]
+];

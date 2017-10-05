@@ -4,6 +4,7 @@
   "description": "Responsive React grid system built with styled-components",
   "main": "dist/index.js",
   "scripts": {
+    "eslint": "eslint --fix .",
     "prepublish": "babel src -d dist",
     "test": "nyc ava",
     "cover": "nyc report --reporter=lcov --reporter=html",
@@ -25,11 +26,17 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-cli": "^6.16.0",
+    "babel-eslint": "^8.0.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.16.3",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
     "funcup": "^1.0.0-0",
     "glamor": "^2.20.40",
     "hidden-styled": "^1.0.0-0",
@@ -48,9 +55,8 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "styled-components": "^2.0.1",
-    "styled-system": "^1.0.0-9",
+    "prop-types": "^15.6.0",
+    "styled-components": "^2.1.1",
     "tag-hoc": "^1.0.0-0"
   },
   "ava": {
