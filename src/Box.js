@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import tag from 'tag-hoc';
+import tag from './tag';
 import { space, width, responsiveStyle } from './system';
 import propTypes from './propTypes';
 import removeProps from './remove-props';
